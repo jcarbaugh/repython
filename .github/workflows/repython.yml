@@ -1,0 +1,16 @@
+name: Test for successful repython run
+on: [push]
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: Install Homebrew
+      run: CI=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+    - name: Run repython
+      run: |
+        chmod u+x repython.sh
+        ./repython.sh
