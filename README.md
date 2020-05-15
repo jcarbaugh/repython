@@ -1,5 +1,7 @@
 # repython
 
+![repython build](https://github.com/jcarbaugh/repython/workflows/repython%20build/badge.svg)
+
 Rebuild a [Homebrew](https://brew.sh)-based [Python](https://www.python.org) dev environment from scratch. Includes:
 
 * Python 3.7
