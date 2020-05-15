@@ -1,6 +1,6 @@
 # repython
 
-Rebuild a [Homebrew]()-based Python dev environment from scratch. Includes:
+Rebuild a [Homebrew](https://brew.sh)-based Python dev environment from scratch. Includes:
 
 * Python 3.7
 * Python 3.8
