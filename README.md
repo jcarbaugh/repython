@@ -16,8 +16,8 @@ Download and run locally or run directly from the web:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jcarbaugh/repython/master/repython.sh)"
 ```
 
-Once rebuilt, ensure that the pyenv and Homebrew binary locations are on your path:
+Once rebuilt, ensure that the pipx, pyenv, and Homebrew binary locations are on your path:
 
 ```
-PATH=~/.pyenv/shims/:/usr/local/bin:$PATH
+PATH=~/.local/bin:~/.pyenv/shims:/usr/local/bin:$PATH
 ```
