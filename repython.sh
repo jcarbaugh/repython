@@ -23,6 +23,7 @@ fi
 brew uninstall --force pipx
 brew uninstall --force pipenv
 brew uninstall --force pyenv
+brew uninstall --force --ignore-dependencies python@3.9
 brew uninstall --force --ignore-dependencies python@3.8
 brew uninstall --force --ignore-dependencies python
 brew uninstall --force --ignore-dependencies python2
@@ -48,8 +49,8 @@ test -d $HOME/.local && rm -rf $HOME/.local && mkdir $HOME/.local
 # put Python 3 back on
 #
 
+brew install python@3.9
 brew install python@3.8
-brew install python@3.7
 
 test ! -f /usr/local/bin/python && ln -s /usr/local/bin/python3 /usr/local/bin/python
 test ! -f /usr/local/bin/pip && ln -s /usr/local/bin/pip3 /usr/local/bin/pip
