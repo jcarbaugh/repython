@@ -4,7 +4,6 @@
 
 Rebuild a [Homebrew](https://brew.sh)-based [Python](https://www.python.org) dev environment from scratch. Includes:
 
-* Python 3.8
 * Python 3.9
 * [pipenv](https://pipenv.pypa.io/en/latest/)
 * [pipx](https://pipxproject.github.io/pipx/)
