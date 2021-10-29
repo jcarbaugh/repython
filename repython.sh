@@ -50,7 +50,7 @@ test -d $HOME/.local && rm -rf $HOME/.local && mkdir $HOME/.local
 # put Python 3 back on
 #
 
-brew install python@3.9
+brew install python@3.10
 
 test ! -f /usr/local/bin/python && ln -s /usr/local/bin/python3 /usr/local/bin/python
 test ! -f /usr/local/bin/pip && ln -s /usr/local/bin/pip3 /usr/local/bin/pip
