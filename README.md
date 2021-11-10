@@ -4,10 +4,10 @@
 
 Rebuild a [Homebrew](https://brew.sh)-based [Python](https://www.python.org) dev environment from scratch. Includes:
 
-* Python 3.9
-* [pipenv](https://pipenv.pypa.io/en/latest/)
-* [pipx](https://pipxproject.github.io/pipx/)
-* [virtualenv](https://virtualenv.pypa.io/en/latest/)
+- Python 3.10
+- [pipenv](https://pipenv.pypa.io/en/latest/)
+- [pipx](https://pipxproject.github.io/pipx/)
+- [virtualenv](https://virtualenv.pypa.io/en/latest/)
 
 Download and run locally or run directly from the web:
 
