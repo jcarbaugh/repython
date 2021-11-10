@@ -23,6 +23,7 @@ fi
 brew uninstall --force pipx
 brew uninstall --force pipenv
 brew uninstall --force pyenv
+brew uninstall --force --ignore-dependencies python@3.10
 brew uninstall --force --ignore-dependencies python@3.9
 brew uninstall --force --ignore-dependencies python@3.8
 brew uninstall --force --ignore-dependencies python@3.7
