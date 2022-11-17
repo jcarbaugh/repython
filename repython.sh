@@ -32,7 +32,8 @@ brew uninstall --force --ignore-dependencies python3
 
 bins=('easy_install' 'pew' 'pip' 'pip2' 'pip3' 'pipenv' 'pipx'
       'python' 'python-build' 'python-config' 'python2*' 'python3*'
-      'virtualenv' 'virtualenv-clone' 'virtualenvwrapper.sh')
+      'virtualenv' 'virtualenv-clone' 'virtualenvwrapper.sh'
+      'register-python-argcomplete')
 for b in "${bins[@]}"; do
   rm -f /usr/local/bin/$b
   rm -f /usr/local/opt/python/libexec/bin
